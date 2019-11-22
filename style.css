@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background-image: url("img/fundo.jpg");
+	background-attachment: fixed;
+}
+
+.container {
+	max-width: 950px;
+}
+
+.logo {
+	max-width: 100%;
+}
+
+.iconeCard {
+	padding-right: 5px;
+}
+
+
+#carouselCelulas {
+	max-width: 100%;
+	padding: 20px;
+}
+
+.carousel-inner .carousel-item img{
+	max-width: 100%;
+}
+
+.articuladorPerfil img {
+	max-width: 50%;
+}
+
+hr {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#articuladores {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#articuladores img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #ebebe0;
+}
+
+#articuladores h2 {
+	padding: 40px;
+}
+
+.articuladorProjetos {
+	padding: 30px;
+}
+
+.articuladorProjetos h3{
+	padding-top: 40px;
+}
+
+.articuladorCelula {
+	text-align: center;
+	padding: 30px;
+}
+
+.articuladorCelula h3 {
+	padding-top: 20px;
+}
+
+.articuladorPerfil h6 {
+	padding: 20px;
+}
+
+#celulas {
+	margin: 40px;
+}
+
+#celulas h2{
+	text-align: center;
+	padding: 40px;
+}
+
+#celulas h4{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#sobre {
+	margin: 40px;
+}
+
+#sobre h2 {
+	text-align: center;
+	padding: 40px;
+}
+
+#sobre p {
+	text-align: justify;
+}
+
+nav {
+	margin: 20px;
+}
+
+#contato div{
+	padding: 15px;
+}
+
+#contato a{
+	padding-left: 10px;
+}
+
+#contato h2 {
+	padding: 40px;
+	text-align: center;
+}
+
+.socialBox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ebebe0;
+	padding-bottom: 70px;
+}
+
+footer {
+	background-color: black;
+	padding: 60px;
+}
+
+footer p{
+	color: white;
+	padding-top: 40px;
+	text-align: center;
+}

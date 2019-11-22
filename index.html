@@ -1,0 +1,576 @@
+<!-- Universidade Federal do Ceará -->
+<!-- Programa de Aprendizagem Cooperativa em Células Estudantis - PACCE -->
+<!-- Célula de Desenvolvimento Web 2019.2 -->
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- CSS adicional -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="shortcut icon" href="img\favicon.png" type="image/x-icon">
+	<link rel="icon" href="img\favicon.png" type="image/x-icon">
+
+	<title>NuCLiC - Núcleo Cooperativo de Línguas e Culturas</title>
+</head>
+<body>
+
+	<div class="container bg-white">
+		<div class="row">
+			<div class="col-sm">
+				<img src="img\logo.png" class="logo" >
+				<nav class="bg-light">
+					<ul class="nav justify-content-center">
+						<li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+						<li class="nav-item"><a class="nav-link active" href="#celulas">Células</a></li>
+						<li class="nav-item"><a class="nav-link active" href="#articuladores">Articuladores</a></li>
+						<li class="nav-item"><a class="nav-link active" href="#contato">Redes Sociais</a></li>
+					</ul>
+				</nav>
+
+				<div class="slideCelulas" align="center">
+					<!-- Início do Carousel: Fotos das Células -->
+					<div id="carouselCelulas" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img\carousel\celula1.jpeg" class="d-block w-100" alt="Conversação em Inglês - Renata Celly">
+							</div>
+							<div class="carousel-item">
+								<img src="img\carousel\celula2.jpeg" class="d-block w-100" alt="Conversação em Inglês - Renata Celly">
+							</div>
+							<div class="carousel-item">
+								<img src="img\carousel\celula3.jpg" class="d-block w-100" alt="Japonês Básico I - Martins">
+							</div>
+							<div class="carousel-item">
+								<img src="img\carousel\celula4.jpeg" class="d-block w-100" alt="CCB - Pedro">
+							</div>
+							<div class="carousel-item">
+								<img src="img\carousel\celula5.jpeg" class="d-block w-100" alt="Inglês - Samuel">
+							</div>
+							<div class="carousel-item">
+								<img src="img\carousel\celula6.jpg" class="d-block w-100" alt="Japonês Básico I - Martins">
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselCelulas" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselCelulas" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Próximo</span>
+						</a>
+					</div>
+					<!-- Fim do carousel -->
+				</div>
+
+				<div id="sobre">
+					<h2>O que é o NuCLiC?</h2>
+					<p>O Núcleo de Línguas Cooperativo (NuCLiC) é um projeto desenvolvido no Programa de Aprendizagem Cooperativa em Células Estudantis (PACCE) da Universidade Federal do Ceará. Criado em 2019, o NuCLiC tem por objetivo dar auxílio aos articuladores de Células de Estudo com temática relacionada a idiomas e culturas. Em 2019.2, estão vinculadas ao NuCLiC as células que trabalham com a Língua Inglesa, Língua Espanhola, Língua Francesa, Língua Japonesa e Libras.</p>
+				</div>
+
+				<div id="celulas">
+					<h2>Células</h2>
+					<h4>Selecione uma opção de idioma para conferir as Células de Estudo:</h4>
+
+					<!-- Cards das opções de idiomas -->
+					<div class="accordion" id="accordionExample">
+						<!-- Inglês -->
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Inglês
+									</button>
+								</h5>
+							</div>
+
+							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+								<!-- Cards das Células de Inglês -->
+								<div class="card-body">
+									<div class="row">
+										<!-- Card da Izabela -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Conversação em Inglês</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Quarta-feira, 14:00 - 16:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Campus do Pici</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Izabela Forte</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+
+										<!-- Card da Lara -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Conversação em Inglês</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Terça-feira, 18:00 - 20:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Departamento de Arquitetura e Urbanismo</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Lara Aguiar</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+
+										<!-- Card da Renata -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Aprendizagem Cooperativa em Inglês</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Sexta-feira, 18:00 - 20:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Faced</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Renata Celly</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+
+										<!-- Card do Huéslei -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Conversação em Inglês</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Segunda-feira, 14:00 - 16:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Departamento de Arquitetura e Urbanismo</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Huéslei Moura</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+
+										<!-- Card do Samuel -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Língua Inglesa</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Sexta-feira, 12:00 - 14:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Departamento de Fitotecnia</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Samuel de Sousa</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+
+										<!-- Card do Pedro -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Ingresso na Casa de Cultura Britânica</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Sexta-feira, 14:00 - 16:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Centro de Tecnologia</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Pedro Lucas</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+									</div>
+								</div>
+								<!-- Fim dos Cards das Células de Inglês -->
+							</div>
+						</div>
+						<!-- Espanhol -->
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Espanhol
+									</button>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								<!-- Cards das Células de Espanhol -->
+								<div class="card-body">
+									<div class="row">
+										<!-- Card da Izabela -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Oratória em Espanhol</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Quinta-feira, 09:00 - 12:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Centro de Humanidades</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Mécia Moura</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+									</div>
+								</div>
+								<!-- Fim dos Cards das Células de Espanhol -->
+							</div>
+						</div>
+						<!-- Francês -->
+						<div class="card">
+							<div class="card-header" id="headingThree">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										Francês
+									</button>
+								</h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								<!-- Cards das Células de Francês -->
+								<div class="card-body">
+									<div class="row">
+										<!-- Card da Scarllet -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Aprendizagem Cooperativa em Francês</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Quinta-feira, 14:00 - 16:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Casa de Cultura Francesa</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Larisse Scarllet</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+									</div>
+								</div>
+								<!-- Fim dos Cards das Células de Francês -->
+							</div>
+						</div>
+						<!-- Japonês -->
+						<div class="card">
+							<div class="card-header" id="headingFour">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Japonês
+									</button>
+								</h5>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+								<!-- Cards das Células de Japonês -->
+								<div class="card-body">
+									<div class="row">
+										<!-- Card da Martins -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Japonês Básico I</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Sexta-feira, 16:00 - 18:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Departamento de Computação</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Adislania Martins</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+
+										<!-- Card da Natiara -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Japonês Básico II</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Quinta-feira, 16:00 - 18:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Centro de Tecnologia</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Natiara Caroline</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+									</div>
+								</div>
+								<!-- Fim dos Cards das Células de Japonês -->
+							</div>
+						</div>
+						<!-- Libras -->
+						<div class="card">
+							<div class="card-header" id="headingFive">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										Libras
+									</button>
+								</h5>
+							</div>
+							<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+								<!-- Cards das Células de Libras -->
+								<div class="card-body">
+									<div class="row">
+										<!-- Card da Scarllet -->
+										<div class="col-sm-6">
+											<div class="card" style="width: 25rem;">
+												<div class="card-body">
+													<h5 class="card-title">Aprendizagem Cooperativa em Libras</h5>
+													<!-- dados básicos -->
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\relogio.png">
+														<p class="card-text">Sexta-feira, 14:00 - 16:00</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\lugar-colocar.png">
+														<p class="card-text">Campus do Benfica</p>
+													</div>
+													<div>								    	
+														<img class="iconeCard" align="left" src="img\pessoa.png">
+														<p class="card-text">Romeo Lima</p>
+													</div>
+													<!-- fim dos dados básicos -->
+												</div>
+											</div>
+										</div>
+										<!-- Fim do card -->
+									</div>
+								</div>
+								<!-- Fim dos Cards das Células de Libras -->
+							</div>
+						</div>
+					</div>
+					<!-- Fim dos Cards de Seleção de Idioma -->
+				</div>   
+
+				<div id="articuladores">
+					<h2>Articuladores</h2>
+					<h3>Articuladoras de Projetos</h3>
+					<div class="articuladorProjetos ">
+						<div class="row">
+							<div class="col-md-3 ml-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\ayumi.png">
+									<h6>Ayumi Vasconcelos</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mr-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\natiara.png">
+									<h6>Natiara Caroline</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<h3>Articuladores de Célula</h3>
+					<div class="articuladorCelula">	
+						<div class="row">
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\martins.png">
+									<h6>Adislania Martins</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\hueslei.png">
+									<h6>Huéslei Moura</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\izabela.png">
+									<h6>Izabela Forte</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\lara.png">
+									<h6>Lara Aguiar</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\scarllet.png">
+									<h6>Larisse Scarllet</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\mecia.png">
+									<h6>Mécia Moura</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\pedro.png">
+									<h6>Pedro Lucas</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mx-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\renata.png">
+									<h6>Renata Celly</h6>
+								</div>
+							</div>
+							<div class="col-md-3 ml-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\romeo.png">
+									<h6>Romeo Lima</h6>
+								</div>
+							</div>
+							<div class="col-md-3 mr-auto">
+								<div class="articuladorPerfil">
+									<img class="rounded-circle" src="img\articuladores\samuel.png">
+									<h6>Samuel de Sousa</h6>
+								</div>
+							</div>		
+						</div>    		
+					</div>
+				</div> 
+
+				<div id="contato">
+					<h2>Redes Sociais</h2>
+					<div class="row">
+						<div class="col-md">
+							<div class="socialBox">
+								<div>								    	
+									<img class="iconeRedes" align="left" src="img\facebook.png">
+									<a href="https://www.facebook.com/pacceufc/">/pacceufc</a>
+								</div>
+								<div>								    	
+									<img class="iconeRedes" align="left" src="img\instagram.png">
+									<a href="https://www.instagram.com/pacceufc/">@pacceufc</a>
+								</div>
+								<div>								    	
+									<img class="iconeRedes" align="left" src="img\global.png">
+									<a href="http://www.pacce.ufc.br/pacce/">Site do PACCE</a>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<footer class="container">
+		<div>
+			<div class="row">
+				<div class="col-md-3 mx-auto">
+					<a href="http://www.pacce.ufc.br/pacce/"><img src="img\pacce.png"></a>
+				</div>		
+				<div class="col-md-3 mx-auto">
+					<a href="http://www.ufc.br/"><img src="img\brasao.png"></a>
+				</div>		
+			</div>
+
+			<p><small>Desenvolvido com ♥ por <a href="https://github.com/maruchinsu">Adislania Martins</a> na Célula de Desenvolvimento Web 2019.2!</small></p>
+		</div>
+	</footer>
+
+
+</body>
+</html>
